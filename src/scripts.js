@@ -104,6 +104,8 @@ class ToDoClass {
     }
 }
 
+let toDo;
+
 window.addEventListener("load", () => {
     toDo = new ToDoClass();
 });
